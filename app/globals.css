@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-sans: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbfcfd;
+  color: #1e293b;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom romantic decorative scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Elegant gold gradient border & text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #b38f24 0%, #d4af37 50%, #f3e5ab 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #b38f24 0%, #d4af37 50%, #f3e5ab 100%);
+}
+
+.blue-gradient-bg {
+  background: linear-gradient(145deg, #0f2537 0%, #16344e 50%, #2a5276 100%);
+}
+
+.luxury-card-shadow {
+  box-shadow: 0 10px 30px -10px rgba(15, 37, 55, 0.08), 0 4px 6px -2px rgba(15, 37, 55, 0.04);
+}
+
+/* Luxury Breathing Gold Ripple for Open Button */
+@keyframes btnPulseGlow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px rgba(11, 30, 48, 0.35), 0 0 0 0 rgba(218, 165, 32, 0.65);
+  }
+  50% {
+    transform: scale(1.025);
+    box-shadow: 0 14px 32px rgba(11, 30, 48, 0.45), 0 0 0 9px rgba(218, 165, 32, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px rgba(11, 30, 48, 0.35), 0 0 0 0 rgba(218, 165, 32, 0);
+  }
+}
+
+/* Automatic gold light shimmer sweep */
+@keyframes autoShimmer {
+  0%, 25% {
+    transform: translateX(-100%);
+  }
+  55%, 100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-btn-pulse-glow {
+  animation: btnPulseGlow 2.2s ease-in-out infinite;
+}
+
+.animate-btn-pulse-glow:hover {
+  animation-play-state: paused;
+}
+
+.animate-auto-shimmer {
+  animation: autoShimmer 2.8s ease-in-out infinite;
+}
+
+
+
