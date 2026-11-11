@@ -41,7 +41,7 @@ export default function CoupleSection() {
                   src="/images/groom-solo.jpg"
                   alt="Lin Lin Thu"
                   fill
-                  className="object-cover object-[center_15%] scale-[1.85] origin-top"
+                  className="object-cover object-[center_15%] scale-[2.2] origin-top"
                   priority
                 />
               </div>
@@ -76,7 +76,7 @@ export default function CoupleSection() {
                   src="/images/bride-solo.jpg"
                   alt="Khine Sabal Tun"
                   fill
-                  className="object-cover object-[center_15%] scale-[2.2] origin-top"
+                  className="object-cover object-[center_15%] scale-[2.2] origin-[center_26%]"
                   priority
                 />
               </div>
