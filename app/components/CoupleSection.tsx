@@ -36,12 +36,12 @@ export default function CoupleSection() {
               </span>
 
               {/* Groom Solo Photo Frame */}
-              <div className="relative w-full max-w-[150px] sm:max-w-[200px] md:max-w-[220px] aspect-[3/4] rounded-2xl overflow-hidden border border-slateBlue-100 sm:border-2 shadow-sm sm:shadow-md mb-3 sm:mb-5 bg-slateBlue-50">
+              <div className="relative w-full max-w-[150px] sm:max-w-[200px] md:max-w-[220px] aspect-[4/5] rounded-2xl overflow-hidden border border-slateBlue-100 sm:border-2 shadow-sm sm:shadow-md mb-3 sm:mb-5 bg-slateBlue-50">
                 <Image
                   src="/images/groom-solo.jpg"
                   alt="Lin Lin Thu"
                   fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover object-[center_15%] scale-[1.85] origin-top"
                   priority
                 />
               </div>
@@ -71,12 +71,12 @@ export default function CoupleSection() {
               </span>
 
               {/* Bride Solo Photo Frame */}
-              <div className="relative w-full max-w-[150px] sm:max-w-[200px] md:max-w-[220px] aspect-[3/4] rounded-2xl overflow-hidden border border-slateBlue-100 sm:border-2 shadow-sm sm:shadow-md mb-3 sm:mb-5 bg-slateBlue-50">
+              <div className="relative w-full max-w-[150px] sm:max-w-[200px] md:max-w-[220px] aspect-[4/5] rounded-2xl overflow-hidden border border-slateBlue-100 sm:border-2 shadow-sm sm:shadow-md mb-3 sm:mb-5 bg-slateBlue-50">
                 <Image
                   src="/images/bride-solo.jpg"
                   alt="Khine Sabal Tun"
                   fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover object-[center_15%] scale-[2.2] origin-top"
                   priority
                 />
               </div>
